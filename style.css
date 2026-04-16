@@ -13,7 +13,7 @@ body {
 }
 
 .home {
-    height: 100vh;
+    height: 75vh;
 }
 
 /* navbar start */
@@ -30,7 +30,7 @@ nav {
 }
 
 nav h1 {
-    color: greenyellow;
+    color: #228B22;
     margin-left: 5%;
     letter-spacing: 8px;
 
@@ -43,7 +43,7 @@ nav h1 {
 
 
 .divright a {
-    color: greenyellow;
+    color: #228B22;
     text-decoration: none;
     font-size: 20px;
     font-weight: 400;
@@ -65,15 +65,13 @@ nav h1 {
 /* hero section start */
 
 .hero {
-    height: 100vh;
-    margin-top: 5%;
+    height: 75vh;
     display: flex;
     justify-content: space-between;
 }
 
 .about {
     font-size: 20px;
-    margin: 5%;
     width: 500px;
 }
 
@@ -86,11 +84,11 @@ nav h1 {
 }
 
 .role {
-    color: greenyellow;
+    color: #228B22;
 }
 
 .front {
-    color: greenyellow;
+    color: #228B22;
 }
 
 .about p {
@@ -109,10 +107,10 @@ nav h1 {
 
 .about button {
     margin-top: 10px;
-    background-color: greenyellow;
+    background-color: #228B22;
     padding: 11px;
     color: black;
-    border: 3px solid greenyellow;
+    border: 3px solid #228B22;
     font-size: 14px;
     font-weight: 600;
     width: 120px;
@@ -131,13 +129,13 @@ nav h1 {
 /* person image */
 .person {
     margin-left: 5%;
-    margin-top: 5%;
     height: 300px;
     width: 200px;
     border-radius: 0 8%;
-    border: 3px solid greenyellow;
+    border: 3px solid #228B22;
     transition: all 0.5s ease;
     cursor: pointer;
+    overflow: hidden;
 
 }
 
@@ -146,12 +144,19 @@ nav h1 {
     box-shadow: 0 0 12px 3px greenyellow;
 }
 
+#centerline {
+    background-color: #228B22;
+    height: 1px;
+    box-shadow: 0 2px 0 2px rgba(172, 255, 47, 0.226);
+
+}
+
 /* hero section end */
 
 
 /* about section started */
 #aboutme {
-    height: 100vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
 
@@ -164,6 +169,14 @@ nav h1 {
     align-items: center;
 }
 
+.subabout {
+    padding-top: 50px;
+}
+
+.aboutandme {
+    margin-bottom: 35px;
+}
+
 #about {
     color: white;
     font-size: 40px;
@@ -171,7 +184,7 @@ nav h1 {
 }
 
 .me {
-    color: greenyellow;
+    color: #228B22;
     font-size: 40px;
     margin-left: 15px;
 
@@ -190,7 +203,7 @@ nav h1 {
     object-fit: cover;
     align-items: end;
     border-radius: 50%;
-    border: 4px solid greenyellow;
+    border: 4px solid #228B22;
 }
 
 .aboutdes {
@@ -223,16 +236,17 @@ nav h1 {
 /* readmore button  */
 .readmore {
     margin-top: 10px;
-    background-color: greenyellow;
+    background-color: #228B22;
     padding: 11px;
     color: black;
-    border: 3px solid greenyellow;
+    border: 3px solid #228B22;
     font-size: 14px;
     font-weight: 600;
     width: 120px;
     border-radius: 0px 12px;
     transition: all 0.5s ease;
     cursor: pointer;
+    margin-top: 20px;
 
 }
 
@@ -260,10 +274,10 @@ header div {
 header img {
     height: 200px;
     width: 400px;
-    border: 2px solid greenyellow;
+    border: 2px solid #228B22;
     border-radius: 0 20px;
     background-size: cover;
-    border: 3px solid greenyellow;
+    border: 3px solid #228B22;
     margin-left: 8px;
     transition: all 0.5s ease;
     cursor: pointer;
@@ -276,8 +290,9 @@ header img:hover {
 }
 
 #projectpage {
-    height: 100vh;
+    height: 75vh;
     align-items: center;
+    padding: 50px 0;
 }
 
 .projects {
@@ -286,12 +301,13 @@ header img:hover {
     width: 600px;
     height: 60px;
     border-radius: 0 15px;
-    background-color: greenyellow;
+    background-color: #228B22;
     font-size: 35px;
     font-weight: 500;
     text-align: center;
 
 }
+
 /* 
 REview section stared */
 
@@ -302,6 +318,7 @@ REview section stared */
 }
 
 #review {
+    padding: 50px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -321,16 +338,21 @@ REview section stared */
 
 /* review car tabs */
 .detail {
+    line-height: 23px;
     margin-left: 25px;
     text-align: center;
-    height: 300px;
+    height: 250px;
     width: 200px;
-    background-color: greenyellow;
+    background-color: #228B22;
     /* border: 3px solid greenyellow; */
     border-radius: 5%;
     padding-top: 25px;
     transition: all 0.5s ease;
     cursor: pointer;
+}
+
+#cardimg {
+    margin-bottom: 22px;
 }
 
 .detail:hover {
@@ -339,8 +361,8 @@ REview section stared */
 }
 
 .detail img {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
     border: 3px solid black;
     border-radius: 50%;
 }
@@ -358,10 +380,10 @@ REview section stared */
 
 .button button {
     margin-left: 11px;
-    background-color: greenyellow;
+    background-color: #228B22;
     padding: 11px;
     color: black;
-    border: 3px solid greenyellow;
+    border: 3px solid #228B22;
     font-size: 14px;
     font-weight: 600;
     width: 120px;
@@ -374,4 +396,41 @@ REview section stared */
 .button button:hover {
     transform: translateY(-15px);
     box-shadow: 0 0 12px 3px greenyellow;
+}
+
+/* footer section start */
+footer {
+    height: 80px;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+    text-transform: capitalize;
+}
+
+#footicon {
+    background-color: transparent;
+    color: white;
+    padding: 3px;
+    border-radius: 50%;
+    border: 3px solid white;
+    text-align: center;
+    margin-top: 100px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+#footicon:hover {
+    color: #228B22;
+    border: 3px solid #228B22;
+}
+
+.foot {
+    margin-top: 20px;
+
 }
